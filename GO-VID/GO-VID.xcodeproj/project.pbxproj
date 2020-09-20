@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26DA943E2516AB8200C8CBBE /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DA943D2516AB8200C8CBBE /* FourthViewController.swift */; };
+		26DA94432516BB7300C8CBBE /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DA94422516BB7300C8CBBE /* FifthViewController.swift */; };
+		26DA94482516BFBC00C8CBBE /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DA94472516BFBC00C8CBBE /* SixthViewController.swift */; };
+		64B67BD125168D27008A91E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B67BD025168D27008A91E7 /* AppDelegate.swift */; };
+		64B67BD325168D27008A91E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B67BD225168D27008A91E7 /* SceneDelegate.swift */; };
+		64B67BD525168D27008A91E7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B67BD425168D27008A91E7 /* HomeViewController.swift */; };
+		64B67BD825168D27008A91E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B67BD625168D27008A91E7 /* Main.storyboard */; };
+		64B67BDA25168D28008A91E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B67BD925168D28008A91E7 /* Assets.xcassets */; };
+		64B67BDD25168D28008A91E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B67BDB25168D28008A91E7 /* LaunchScreen.storyboard */; };
+		64B67BE825168D29008A91E7 /* GO_VIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B67BE725168D29008A91E7 /* GO_VIDTests.swift */; };
+		64B67BF325168D29008A91E7 /* GO_VIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B67BF225168D29008A91E7 /* GO_VIDUITests.swift */; };
+		64B67C0425168F6B008A91E7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B67C0325168F6B008A91E7 /* SecondViewController.swift */; };
+		64B67C0C25169EC0008A91E7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B67C0B25169EC0008A91E7 /* ThirdViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64B67BE425168D29008A91E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64B67BC525168D27008A91E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64B67BCC25168D27008A91E7;
+			remoteInfo = "GO-VID";
+		};
+		64B67BEF25168D29008A91E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64B67BC525168D27008A91E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64B67BCC25168D27008A91E7;
+			remoteInfo = "GO-VID";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26DA943D2516AB8200C8CBBE /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		26DA94422516BB7300C8CBBE /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		26DA94472516BFBC00C8CBBE /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		64B67BCD25168D27008A91E7 /* GO-VID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GO-VID.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B67BD025168D27008A91E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64B67BD225168D27008A91E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		64B67BD425168D27008A91E7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		64B67BD725168D27008A91E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64B67BD925168D28008A91E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64B67BDC25168D28008A91E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64B67BDE25168D28008A91E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B67BE325168D29008A91E7 /* GO-VIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GO-VIDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B67BE725168D29008A91E7 /* GO_VIDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GO_VIDTests.swift; sourceTree = "<group>"; };
+		64B67BE925168D29008A91E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B67BEE25168D29008A91E7 /* GO-VIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GO-VIDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B67BF225168D29008A91E7 /* GO_VIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GO_VIDUITests.swift; sourceTree = "<group>"; };
+		64B67BF425168D29008A91E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B67C0325168F6B008A91E7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		64B67C0B25169EC0008A91E7 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64B67BCA25168D27008A91E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B67BE025168D29008A91E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B67BEB25168D29008A91E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64B67BC425168D27008A91E7 = {
+			isa = PBXGroup;
+			children = (
+				64B67BCF25168D27008A91E7 /* GO-VID */,
+				64B67BE625168D29008A91E7 /* GO-VIDTests */,
+				64B67BF125168D29008A91E7 /* GO-VIDUITests */,
+				64B67BCE25168D27008A91E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64B67BCE25168D27008A91E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64B67BCD25168D27008A91E7 /* GO-VID.app */,
+				64B67BE325168D29008A91E7 /* GO-VIDTests.xctest */,
+				64B67BEE25168D29008A91E7 /* GO-VIDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64B67BCF25168D27008A91E7 /* GO-VID */ = {
+			isa = PBXGroup;
+			children = (
+				64B67BD025168D27008A91E7 /* AppDelegate.swift */,
+				64B67BD225168D27008A91E7 /* SceneDelegate.swift */,
+				64B67BD425168D27008A91E7 /* HomeViewController.swift */,
+				64B67BD625168D27008A91E7 /* Main.storyboard */,
+				64B67BD925168D28008A91E7 /* Assets.xcassets */,
+				64B67BDB25168D28008A91E7 /* LaunchScreen.storyboard */,
+				64B67BDE25168D28008A91E7 /* Info.plist */,
+				64B67C0325168F6B008A91E7 /* SecondViewController.swift */,
+				64B67C0B25169EC0008A91E7 /* ThirdViewController.swift */,
+				26DA943D2516AB8200C8CBBE /* FourthViewController.swift */,
+				26DA94422516BB7300C8CBBE /* FifthViewController.swift */,
+				26DA94472516BFBC00C8CBBE /* SixthViewController.swift */,
+			);
+			path = "GO-VID";
+			sourceTree = "<group>";
+		};
+		64B67BE625168D29008A91E7 /* GO-VIDTests */ = {
+			isa = PBXGroup;
+			children = (
+				64B67BE725168D29008A91E7 /* GO_VIDTests.swift */,
+				64B67BE925168D29008A91E7 /* Info.plist */,
+			);
+			path = "GO-VIDTests";
+			sourceTree = "<group>";
+		};
+		64B67BF125168D29008A91E7 /* GO-VIDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64B67BF225168D29008A91E7 /* GO_VIDUITests.swift */,
+				64B67BF425168D29008A91E7 /* Info.plist */,
+			);
+			path = "GO-VIDUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64B67BCC25168D27008A91E7 /* GO-VID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B67BF725168D29008A91E7 /* Build configuration list for PBXNativeTarget "GO-VID" */;
+			buildPhases = (
+				64B67BC925168D27008A91E7 /* Sources */,
+				64B67BCA25168D27008A91E7 /* Frameworks */,
+				64B67BCB25168D27008A91E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GO-VID";
+			productName = "GO-VID";
+			productReference = 64B67BCD25168D27008A91E7 /* GO-VID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64B67BE225168D29008A91E7 /* GO-VIDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B67BFA25168D29008A91E7 /* Build configuration list for PBXNativeTarget "GO-VIDTests" */;
+			buildPhases = (
+				64B67BDF25168D29008A91E7 /* Sources */,
+				64B67BE025168D29008A91E7 /* Frameworks */,
+				64B67BE125168D29008A91E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64B67BE525168D29008A91E7 /* PBXTargetDependency */,
+			);
+			name = "GO-VIDTests";
+			productName = "GO-VIDTests";
+			productReference = 64B67BE325168D29008A91E7 /* GO-VIDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64B67BED25168D29008A91E7 /* GO-VIDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B67BFD25168D29008A91E7 /* Build configuration list for PBXNativeTarget "GO-VIDUITests" */;
+			buildPhases = (
+				64B67BEA25168D29008A91E7 /* Sources */,
+				64B67BEB25168D29008A91E7 /* Frameworks */,
+				64B67BEC25168D29008A91E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64B67BF025168D29008A91E7 /* PBXTargetDependency */,
+			);
+			name = "GO-VIDUITests";
+			productName = "GO-VIDUITests";
+			productReference = 64B67BEE25168D29008A91E7 /* GO-VIDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64B67BC525168D27008A91E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					64B67BCC25168D27008A91E7 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					64B67BE225168D29008A91E7 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 64B67BCC25168D27008A91E7;
+					};
+					64B67BED25168D29008A91E7 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 64B67BCC25168D27008A91E7;
+					};
+				};
+			};
+			buildConfigurationList = 64B67BC825168D27008A91E7 /* Build configuration list for PBXProject "GO-VID" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64B67BC425168D27008A91E7;
+			productRefGroup = 64B67BCE25168D27008A91E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64B67BCC25168D27008A91E7 /* GO-VID */,
+				64B67BE225168D29008A91E7 /* GO-VIDTests */,
+				64B67BED25168D29008A91E7 /* GO-VIDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64B67BCB25168D27008A91E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B67BDD25168D28008A91E7 /* LaunchScreen.storyboard in Resources */,
+				64B67BDA25168D28008A91E7 /* Assets.xcassets in Resources */,
+				64B67BD825168D27008A91E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B67BE125168D29008A91E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B67BEC25168D29008A91E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64B67BC925168D27008A91E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DA943E2516AB8200C8CBBE /* FourthViewController.swift in Sources */,
+				64B67C0425168F6B008A91E7 /* SecondViewController.swift in Sources */,
+				26DA94482516BFBC00C8CBBE /* SixthViewController.swift in Sources */,
+				64B67BD525168D27008A91E7 /* HomeViewController.swift in Sources */,
+				64B67C0C25169EC0008A91E7 /* ThirdViewController.swift in Sources */,
+				64B67BD125168D27008A91E7 /* AppDelegate.swift in Sources */,
+				64B67BD325168D27008A91E7 /* SceneDelegate.swift in Sources */,
+				26DA94432516BB7300C8CBBE /* FifthViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B67BDF25168D29008A91E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B67BE825168D29008A91E7 /* GO_VIDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B67BEA25168D29008A91E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B67BF325168D29008A91E7 /* GO_VIDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64B67BE525168D29008A91E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64B67BCC25168D27008A91E7 /* GO-VID */;
+			targetProxy = 64B67BE425168D29008A91E7 /* PBXContainerItemProxy */;
+		};
+		64B67BF025168D29008A91E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64B67BCC25168D27008A91E7 /* GO-VID */;
+			targetProxy = 64B67BEF25168D29008A91E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64B67BD625168D27008A91E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B67BD725168D27008A91E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64B67BDB25168D28008A91E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B67BDC25168D28008A91E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64B67BF525168D29008A91E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64B67BF625168D29008A91E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64B67BF825168D29008A91E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RXKBD44266;
+				INFOPLIST_FILE = "GO-VID/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hackmit.GO-VID";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64B67BF925168D29008A91E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RXKBD44266;
+				INFOPLIST_FILE = "GO-VID/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hackmit.GO-VID";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64B67BFB25168D29008A91E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RXKBD44266;
+				INFOPLIST_FILE = "GO-VIDTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hackmit.GO-VIDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GO-VID.app/GO-VID";
+			};
+			name = Debug;
+		};
+		64B67BFC25168D29008A91E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RXKBD44266;
+				INFOPLIST_FILE = "GO-VIDTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hackmit.GO-VIDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GO-VID.app/GO-VID";
+			};
+			name = Release;
+		};
+		64B67BFE25168D29008A91E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RXKBD44266;
+				INFOPLIST_FILE = "GO-VIDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hackmit.GO-VIDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GO-VID";
+			};
+			name = Debug;
+		};
+		64B67BFF25168D29008A91E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RXKBD44266;
+				INFOPLIST_FILE = "GO-VIDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hackmit.GO-VIDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GO-VID";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64B67BC825168D27008A91E7 /* Build configuration list for PBXProject "GO-VID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B67BF525168D29008A91E7 /* Debug */,
+				64B67BF625168D29008A91E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B67BF725168D29008A91E7 /* Build configuration list for PBXNativeTarget "GO-VID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B67BF825168D29008A91E7 /* Debug */,
+				64B67BF925168D29008A91E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B67BFA25168D29008A91E7 /* Build configuration list for PBXNativeTarget "GO-VIDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B67BFB25168D29008A91E7 /* Debug */,
+				64B67BFC25168D29008A91E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B67BFD25168D29008A91E7 /* Build configuration list for PBXNativeTarget "GO-VIDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B67BFE25168D29008A91E7 /* Debug */,
+				64B67BFF25168D29008A91E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64B67BC525168D27008A91E7 /* Project object */;
+}
